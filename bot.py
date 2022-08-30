@@ -22,9 +22,9 @@ async def on_message(message):
 	if message.content.startswith('!mr_grizz'):
 		if message.content[10:].upper() == 'ARE YOU HOT?' or  message.content[10:].upper() == 'ARE YOU HOT':
 			
-			await message.channel.send('I am decidedly not hot.')
+			await message.channel.send('I am very hot')
 		else:
-			await message.channel.send('Mr_Grizz_Bot smiles and nods')
+			await message.channel.send('Mr_Grizz_Bot smiles and nods if your opinon is glosh approved')
 
 
 client.run(TOKEN)
